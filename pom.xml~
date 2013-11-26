@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>br.com.unb.argentum.reader</groupId>
+  <artifactId>argentum</artifactId>
+  <version>1.0</version>
+  <name>Argentum Project</name>
+
+  <dependencies>
+          <dependency>
+            <groupId>junit</groupId>
+                  <artifactId>junit</artifactId>
+                  <version>4.11</version>
+                  <scope>test</scope>
+        </dependency>
+                <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-all</artifactId>
+                <version>1.8.4</version>
+        </dependency>
+  </dependencies>
+  <properties>
+
+
+   <sonar.language>java</sonar.language>
+
+    <!-- Tells Sonar to reuse existing reports -->
+    <sonar.dynamicAnalysis>true</sonar.dynamicAnalysis>
+
+        <!-- Tells Sonar where the unit tests execution reports are -->
+        <sonar.surefire.reportsPath>\target\surefire-reports</sonar.surefire.reportsPath>
+        
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
+</project>
