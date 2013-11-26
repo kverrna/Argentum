@@ -7,7 +7,7 @@ import java.util.Calendar;
 import org.junit.Assert;
 import org.junit.Test;
 
-import classes.Negocio;
+import br.com.unb.argentum.reader.Negocio;
 
 public class NegocioTest {
 

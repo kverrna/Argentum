@@ -8,7 +8,7 @@ import junit.framework.Assert;
 
 import org.junit.Test;
 
-import classes.CandleStick;
+import br.com.unb.argentum.reader.CandleStick;
 
 public class CandleStickTest {
 
